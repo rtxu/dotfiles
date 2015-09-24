@@ -29,6 +29,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'user/L9', {'name': 'newL9'}
 
 Plugin 'Valloric/YouCompleteMe'
+let g:ycm_collect_identifiers_from_tags_files = 1
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
