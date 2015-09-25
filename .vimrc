@@ -39,6 +39,9 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
+Plugin 'fatih/vim-go'
+let g:go_fmt_command = "goimports"
+let g:godef_split = 3
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -59,5 +62,10 @@ set smarttab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set number
+set hlsearch
+set expandtab
+set smartindent
+set autoindent
 
 let mapleader = "y"
