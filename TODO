@@ -1,0 +1,6 @@
+
+= Current Status
+* YCM + tags 完美支持基于identifiers的自动补全
+
+= Better
+* 集成 clang，支持基于语义的自动补全
