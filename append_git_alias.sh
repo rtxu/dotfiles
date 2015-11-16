@@ -11,3 +11,5 @@ git config --global alias.last 'log -1 HEAD'
 git config --global alias.br branch
 # new branch to track origin/master
 git config --global alias.nmbr 'checkout -t origin/master -b'
+
+git config --global alias.review 'push origin HEAD:refs/for/master'
