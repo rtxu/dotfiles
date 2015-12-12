@@ -13,3 +13,4 @@ git config --global alias.br branch
 git config --global alias.nmbr 'checkout -t origin/master -b'
 
 git config --global alias.review 'push origin HEAD:refs/for/master'
+git config --global alias.pmaster 'push origin master:master'

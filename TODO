@@ -1,6 +1,8 @@
 
 = Current Status
 * YCM + tags 完美支持基于identifiers的自动补全
+* YCM 对 golang 的支持很好
+* YCM 还可以自动补全文件名，如在编辑文件时输入 ./ 就会弹出文件名补全信息
 
 = Better
 * 集成 clang，支持基于语义的自动补全
