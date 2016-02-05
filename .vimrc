@@ -69,3 +69,4 @@ set smartindent
 set autoindent
 
 let mapleader = "y"
+colorscheme torte
