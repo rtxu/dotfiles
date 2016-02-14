@@ -1,0 +1,15 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	up = pull --rebase
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	br = branch
+	nmbr = checkout -t origin/master -b
+	review = push origin HEAD:refs/for/master
+	pmaster = push origin master:master
+	mylog = log --pretty=\"%Cred%h%Creset %<(10,trunc)%Cgreen%an%Creset %Cblue%ci%Creset %s\"
+[user]
+	name = ruitao.xu
+	email = ruitao.xu@alibaba-inc.com
