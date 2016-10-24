@@ -6,3 +6,22 @@
 
 = Better
 * 集成 clang，支持基于语义的自动补全
+
+= Trouble Shooting
+== vim
+# vim插件寻求帮助的统一方式：:help <plugin-name>
+# 查看所有 vim option：:set
+
+== vim-go
+# Vundle 仅负责安装 vim-go plugin
+# vim-go 本身还依赖多种 golang 的第三方工具(:help vim-go文档有提到，
+依赖 gocode/godef/goimports 等），通过 :GoInstallBinaries 安装。
+除此之外，还需要将这些 binary 加入 PATH 后，方可正常使用。
+
+== YCM
+# Vundle 仅负责安装 YouCompleteMe plugin
+# 还需要手动安装相应语言的自动补全库(ycm_core)，~/.vim/bundle/YouCompoleteMe/install.py
+
+== UltiSnips
+# 默认 snipets 搜索路径：'runtimepath' 下的 'UltiSnipts' 子目录
+# runtimepath 是一个 vim option，查看方法：:set

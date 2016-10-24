@@ -13,3 +13,5 @@
 [user]
 	name = ruitao.xu
 	email = ruitao.xu@alibaba-inc.com
+[color]
+	ui = true
