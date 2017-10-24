@@ -8,10 +8,10 @@
 	br = branch
 	nmbr = checkout -t origin/master -b
 	review = push origin HEAD:refs/for/master
-	pmaster = push origin master:master
+	pmaster = push origin HEAD:master
 	mylog = log --pretty=\"%Cred%h%Creset %<(10,trunc)%Cgreen%an%Creset %Cblue%ci%Creset %s\"
 [user]
 	name = ruitao.xu
-	email = ruitao.xu@alibaba-inc.com
+	email = ruitao.xu@aliyun.com
 [color]
 	ui = true
