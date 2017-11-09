@@ -28,8 +28,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 
-Plugin 'Valloric/YouCompleteMe'
-let g:ycm_collect_identifiers_from_tags_files = 1
+" Plugin 'Valloric/YouCompleteMe'
+" let g:ycm_collect_identifiers_from_tags_files = 1
 
 Plugin 'SirVer/ultisnips'
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
@@ -70,3 +70,6 @@ set autoindent
 
 let mapleader = "y"
 colorscheme torte
+
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk,ucs-bom,cp936
