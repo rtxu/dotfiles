@@ -15,7 +15,11 @@ defscrollback 32000
 defutf8 on
 
 hardstatus alwayslastline
-hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+# k = black, y = yellow, w = white
+# .kw = background black,  font white
+# .yk = background yellow, font black
+hardstatus string "%{.kw}%-w%{.yk}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+
 
 # disable screen locker
 # ref: https://superuser.com/questions/343965/what-is-the-default-password-of-screen
